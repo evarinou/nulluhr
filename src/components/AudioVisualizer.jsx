@@ -60,11 +60,15 @@ export default function AudioVisualizer() {
     }
 
     document.addEventListener('click', startOnClick)
+    document.addEventListener('scroll', startOnClick)
+    document.addEventListener('touchstart', startOnClick)
     const timer = setTimeout(tryAutoplay, 500)
 
     return () => {
       clearTimeout(timer)
       document.removeEventListener('click', startOnClick)
+      document.removeEventListener('scroll', startOnClick)
+      document.removeEventListener('touchstart', startOnClick)
     }
   }, [initAudio, isPlaying])
 
