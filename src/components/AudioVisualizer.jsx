@@ -7,6 +7,7 @@ export default function AudioVisualizer() {
   const audioContextRef = useRef(null)
   const animationRef = useRef(null)
   const [isPlaying, setIsPlaying] = useState(false)
+  const [showOverlay, setShowOverlay] = useState(true)
 
   // Gedeckte einfarbige Farbe
   const color = '#5a2a18' // Dunkles Rostbraun
@@ -28,49 +29,22 @@ export default function AudioVisualizer() {
     analyser.connect(audioContext.destination)
   }, [])
 
-  // Autoplay versuch + bei Klick irgendwo starten
-  useEffect(() => {
-    const tryAutoplay = async () => {
-      try {
+  // Musik starten beim Overlay-Klick
+  const enterSite = async () => {
+    try {
+      if (!audioContextRef.current) {
         await initAudio()
-        const audio = audioRef.current
-        await audio.play()
-        setIsPlaying(true)
-      } catch (e) {
-        // Autoplay blockiert - bei nächstem Klick irgendwo starten
       }
-    }
-
-    const startOnClick = async () => {
-      if (!isPlaying && audioRef.current) {
-        try {
-          if (!audioContextRef.current) {
-            await initAudio()
-          }
-          if (audioContextRef.current?.state === 'suspended') {
-            await audioContextRef.current.resume()
-          }
-          await audioRef.current.play()
-          setIsPlaying(true)
-          document.removeEventListener('click', startOnClick)
-        } catch (e) {
-          // Ignore
-        }
+      if (audioContextRef.current?.state === 'suspended') {
+        await audioContextRef.current.resume()
       }
+      await audioRef.current.play()
+      setIsPlaying(true)
+    } catch (e) {
+      // Ignore - Musik konnte nicht gestartet werden
     }
-
-    document.addEventListener('click', startOnClick)
-    document.addEventListener('scroll', startOnClick)
-    document.addEventListener('touchstart', startOnClick)
-    const timer = setTimeout(tryAutoplay, 500)
-
-    return () => {
-      clearTimeout(timer)
-      document.removeEventListener('click', startOnClick)
-      document.removeEventListener('scroll', startOnClick)
-      document.removeEventListener('touchstart', startOnClick)
-    }
-  }, [initAudio, isPlaying])
+    setShowOverlay(false)
+  }
 
   // Canvas Animation
   useEffect(() => {
@@ -242,6 +216,66 @@ export default function AudioVisualizer() {
         onPause={() => setIsPlaying(false)}
       />
 
+      {/* Intro Overlay */}
+      {showOverlay && (
+        <div
+          onClick={enterSite}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'linear-gradient(180deg, #0a0a0a 0%, #1a0a12 50%, #0a0a0a 100%)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 9999,
+            cursor: 'pointer'
+          }}
+        >
+          <div style={{
+            fontSize: 'clamp(40px, 10vw, 80px)',
+            color: '#ff6b35',
+            textShadow: '0 0 60px rgba(255,107,53,0.8)',
+            letterSpacing: '-2px',
+            marginBottom: '40px',
+            fontFamily: 'Courier New, monospace'
+          }}>
+            NULL:UHR
+          </div>
+
+          <div style={{
+            padding: '15px 40px',
+            border: '1px solid #ff6b35',
+            color: '#ff6b35',
+            fontSize: '14px',
+            letterSpacing: '4px',
+            fontFamily: 'Courier New, monospace',
+            animation: 'pulse-border 2s infinite'
+          }}>
+            EINTRETEN
+          </div>
+
+          <div style={{
+            marginTop: '60px',
+            color: '#444',
+            fontSize: '12px',
+            letterSpacing: '2px'
+          }}>
+            SILVESTER 2025
+          </div>
+
+          <style>{`
+            @keyframes pulse-border {
+              0% { box-shadow: 0 0 10px rgba(255,107,53,0.3); }
+              50% { box-shadow: 0 0 30px rgba(255,107,53,0.6); }
+              100% { box-shadow: 0 0 10px rgba(255,107,53,0.3); }
+            }
+          `}</style>
+        </div>
+      )}
     </>
   )
 }
