@@ -118,7 +118,7 @@ export default function Home() {
             {event.date} ab {event.time}
           </p>
           <p style={{ margin: 0, color: '#666', fontSize: '14px' }}>
-            Tief unter der Festung. Wo das Ordnungsamt nicht hinkommt.
+            Tief unter Kronach. Wo das Ordnungsamt nicht hinkommt.
           </p>
         </div>
 

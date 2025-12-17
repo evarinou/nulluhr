@@ -7,7 +7,6 @@ export default function AudioVisualizer() {
   const audioContextRef = useRef(null)
   const animationRef = useRef(null)
   const [isPlaying, setIsPlaying] = useState(false)
-  const [showPlayButton, setShowPlayButton] = useState(true)
 
   // Gedeckte einfarbige Farbe
   const color = '#5a2a18' // Dunkles Rostbraun
@@ -29,26 +28,7 @@ export default function AudioVisualizer() {
     analyser.connect(audioContext.destination)
   }, [])
 
-  const togglePlay = useCallback(async () => {
-    const audio = audioRef.current
-
-    if (!audioContextRef.current) {
-      await initAudio()
-    }
-
-    if (audioContextRef.current.state === 'suspended') {
-      await audioContextRef.current.resume()
-    }
-
-    if (isPlaying) {
-      audio.pause()
-    } else {
-      audio.play()
-    }
-    setIsPlaying(!isPlaying)
-  }, [isPlaying, initAudio])
-
-  // Autoplay versuch
+  // Autoplay versuch + bei Klick irgendwo starten
   useEffect(() => {
     const tryAutoplay = async () => {
       try {
@@ -56,15 +36,37 @@ export default function AudioVisualizer() {
         const audio = audioRef.current
         await audio.play()
         setIsPlaying(true)
-        setShowPlayButton(false)
       } catch (e) {
-        setShowPlayButton(true)
+        // Autoplay blockiert - bei nächstem Klick irgendwo starten
       }
     }
 
+    const startOnClick = async () => {
+      if (!isPlaying && audioRef.current) {
+        try {
+          if (!audioContextRef.current) {
+            await initAudio()
+          }
+          if (audioContextRef.current?.state === 'suspended') {
+            await audioContextRef.current.resume()
+          }
+          await audioRef.current.play()
+          setIsPlaying(true)
+          document.removeEventListener('click', startOnClick)
+        } catch (e) {
+          // Ignore
+        }
+      }
+    }
+
+    document.addEventListener('click', startOnClick)
     const timer = setTimeout(tryAutoplay, 500)
-    return () => clearTimeout(timer)
-  }, [initAudio])
+
+    return () => {
+      clearTimeout(timer)
+      document.removeEventListener('click', startOnClick)
+    }
+  }, [initAudio, isPlaying])
 
   // Canvas Animation
   useEffect(() => {
@@ -232,61 +234,10 @@ export default function AudioVisualizer() {
         src="/rave-intro.mp3"
         loop
         preload="auto"
-        onPlay={() => { setIsPlaying(true); setShowPlayButton(false) }}
+        onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       />
 
-      {/* Play Button */}
-      {showPlayButton && (
-        <button
-          onClick={togglePlay}
-          style={{
-            position: 'fixed',
-            bottom: '30px',
-            right: '30px',
-            width: '70px',
-            height: '70px',
-            borderRadius: '50%',
-            background: 'rgba(255, 107, 53, 0.9)',
-            border: '2px solid #ff6b35',
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            zIndex: 1000,
-            boxShadow: '0 0 30px rgba(255, 107, 53, 0.5)',
-            transition: 'all 0.3s ease',
-            animation: !isPlaying ? 'pulse-button 2s infinite' : 'none'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.transform = 'scale(1.1)'
-            e.currentTarget.style.boxShadow = '0 0 50px rgba(255, 107, 53, 0.8)'
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.transform = 'scale(1)'
-            e.currentTarget.style.boxShadow = '0 0 30px rgba(255, 107, 53, 0.5)'
-          }}
-        >
-          {isPlaying ? (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000">
-              <rect x="6" y="4" width="4" height="16" />
-              <rect x="14" y="4" width="4" height="16" />
-            </svg>
-          ) : (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000">
-              <polygon points="5,3 19,12 5,21" />
-            </svg>
-          )}
-        </button>
-      )}
-
-      <style>{`
-        @keyframes pulse-button {
-          0% { box-shadow: 0 0 30px rgba(255, 107, 53, 0.5); }
-          50% { box-shadow: 0 0 50px rgba(255, 107, 53, 0.8), 0 0 80px rgba(255, 107, 53, 0.4); }
-          100% { box-shadow: 0 0 30px rgba(255, 107, 53, 0.5); }
-        }
-      `}</style>
     </>
   )
 }
