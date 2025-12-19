@@ -1,7 +1,37 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { characters, event } from '../data/characters'
-import AudioVisualizer from '../components/AudioVisualizer'
+
+// Profilbilder
+import lenaImg from '../ProfilePics/Lena.png'
+import svenjaImg from '../ProfilePics/Svenja.png'
+import evaSImg from '../ProfilePics/EvaS.png'
+import steffiImg from '../ProfilePics/Steffi.png'
+import jasonImg from '../ProfilePics/Jason.png'
+import lukasImg from '../ProfilePics/Lukas.png'
+import lisaImg from '../ProfilePics/Lisa.png'
+import fabiVImg from '../ProfilePics/FabiV.png'
+import paetziImg from '../ProfilePics/Paetzi.png'
+import kevinImg from '../ProfilePics/Kevin.png'
+import annikaImg from '../ProfilePics/Annika.png'
+import michaImg from '../ProfilePics/micha.png'
+import benImg from '../ProfilePics/Ben.png'
+
+const profilePics = {
+  'lena': lenaImg,
+  'svenja': svenjaImg,
+  'eva-s': evaSImg,
+  'steffi': steffiImg,
+  'jason': jasonImg,
+  'lukas': lukasImg,
+  'lisa': lisaImg,
+  'fabi-v': fabiVImg,
+  'paetzi': paetziImg,
+  'kevin': kevinImg,
+  'annika': annikaImg,
+  'micha': michaImg,
+  'ben': benImg
+}
 
 const colors = {
   'lena': '#1a1a2e',
@@ -12,7 +42,6 @@ const colors = {
   'lukas': '#f4a261',
   'lucas': '#2a9d8f',
   'lisa': '#e9c46a',
-  'fabi-r': '#bc6c25',
   'fabi-v': '#606c38',
   'paetzi': '#dda15e',
   'kevin': '#283618',
@@ -24,9 +53,9 @@ const colors = {
 export default function Home() {
   // Verdächtige erst ab 20.12.2025 anzeigen
   const revealDate = new Date('2025-12-20T00:00:00')
-  const isRevealed = new Date() >= revealDate
+  //const isRevealed = new Date() >= revealDate
   // TODO: Zum Testen auf true setzen, dann wieder auf obige Zeile zurücksetzen
-  // const isRevealed = true
+  const isRevealed = false
 
   // PWA Install
   const [deferredPrompt, setDeferredPrompt] = useState(null)
@@ -68,7 +97,6 @@ export default function Home() {
 
   return (
     <div style={{ minHeight: '100vh', position: 'relative' }}>
-      <AudioVisualizer />
       {/* Hero */}
       <header style={{
         textAlign: 'center',
@@ -84,14 +112,18 @@ export default function Home() {
           SILVESTER 2025
         </div>
 
-        <h1 style={{
-          fontSize: 'clamp(50px, 12vw, 100px)',
-          margin: 0,
-          color: '#ff6b35',
-          textShadow: '0 0 60px rgba(255,107,53,0.8), 0 0 120px rgba(255,107,53,0.4)',
-          letterSpacing: '-2px',
-          lineHeight: 1
-        }}>
+        <h1
+          className="glitch-text"
+          data-text="NULL:UHR"
+          style={{
+            fontSize: 'clamp(50px, 12vw, 100px)',
+            margin: 0,
+            color: '#ff6b35',
+            textShadow: '0 0 60px rgba(255,107,53,0.8), 0 0 120px rgba(255,107,53,0.4)',
+            letterSpacing: '-2px',
+            lineHeight: 1
+          }}
+        >
           NULL:UHR
         </h1>
 
@@ -175,14 +207,19 @@ export default function Home() {
             {characters.map((char) => (
               <Link to={`/charakter/${char.id}`} key={char.id}>
                 <article
+                  className="card-glitch"
                   style={{
-                    background: `linear-gradient(135deg, ${colors[char.id]}40 0%, #0a0a0a 100%)`,
+                    background: profilePics[char.id]
+                      ? `linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.85) 60%, rgba(10,10,10,0.9) 100%), url(${profilePics[char.id]}) center top / cover no-repeat`
+                      : `linear-gradient(135deg, ${colors[char.id]}30 0%, rgba(10,10,10,0.8) 100%)`,
                     border: '1px solid #333',
-                    padding: '25px',
+                    padding: '180px 25px 25px',
                     transition: 'all 0.3s ease',
                     position: 'relative',
                     overflow: 'hidden',
-                    minHeight: '200px'
+                    height: '420px',
+                    display: 'flex',
+                    flexDirection: 'column'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.borderColor = '#ff6b35'
@@ -193,6 +230,20 @@ export default function Home() {
                     e.currentTarget.style.transform = 'translateY(0)'
                   }}
                 >
+                  {/* Animierte Scanline Overlay für Rave-Effekt */}
+                  <div
+                    className="card-scanlines"
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      pointerEvents: 'none',
+                      opacity: 0.5
+                    }}
+                  />
+
                   {char.privateInfo?.isSpecialRole && (
                     <div style={{
                       position: 'absolute',
@@ -202,7 +253,8 @@ export default function Home() {
                       color: '#000',
                       padding: '3px 8px',
                       fontSize: '10px',
-                      fontWeight: 'bold'
+                      fontWeight: 'bold',
+                      zIndex: 2
                     }}>
                       SPEZIAL
                     </div>
@@ -210,9 +262,10 @@ export default function Home() {
 
                   <div style={{
                     fontSize: '11px',
-                    color: '#666',
+                    color: '#888',
                     letterSpacing: '2px',
-                    marginBottom: '8px'
+                    marginBottom: '8px',
+                    textShadow: '0 2px 4px rgba(0,0,0,0.8)'
                   }}>
                     {char.realName}
                   </div>
@@ -220,26 +273,29 @@ export default function Home() {
                   <h3 style={{
                     margin: '0 0 15px 0',
                     color: '#ff6b35',
-                    fontSize: '22px'
+                    fontSize: '22px',
+                    textShadow: '0 0 20px rgba(255,107,53,0.5)'
                   }}>
                     {char.roleName}
                   </h3>
 
                   <p style={{
                     margin: 0,
-                    color: '#888',
+                    color: '#aaa',
                     fontSize: '14px',
-                    lineHeight: 1.6
+                    lineHeight: 1.6,
+                    flex: 1,
+                    overflow: 'hidden'
                   }}>
                     {char.publicDescription}
                   </p>
 
                   <div style={{
-                    marginTop: '20px',
+                    marginTop: 'auto',
                     paddingTop: '15px',
                     borderTop: '1px solid #333',
                     fontSize: '12px',
-                    color: '#555'
+                    color: '#666'
                   }}>
                     {char.dresscode}
                   </div>

@@ -11,10 +11,10 @@
     {
       "id": "lena",
       "realName": "Lena Martin",
-      "roleName": "Schattenschwester",
-      "publicDescription": "Die stille Begleiterin. Immer da, nie im Rampenlicht.",
+      "roleName": "Nachtschwester",
+      "publicDescription": "Die Rave-Krankenschwester. Verteilt Elektrolyte, pflastert Blasen. Ohne sie würde hier niemand die Nacht überstehen.",
       "privateInfo": {
-        "background": "Du bist seit fünf Jahren Teil der NULL:UHR-Szene. Anfangs warst du nur Gast, dann Helferin, dann... unverzichtbar. Bassmuschi und du habt euch 2020 auf einem kleinen Rave kennengelernt. Sie war damals noch nicht 'Bassmuschi' – nur Eva, eine Möchtegern-DJane mit großen Träumen und wenig Talent.\n\nDu hast sie aufgebaut. Du hast an sie geglaubt. Du hast ihr geholfen.\n\nUnd dann hat sie dein Geheimnis entdeckt.\n\nVor drei Jahren hast du deinen Job als MFA verloren. Der offizielle Grund: 'Unstimmigkeiten bei der Medikamentenabrechnung.' Die Wahrheit: Du hast Rezepte gefälscht und Pillen verkauft. Nicht viel, nicht lange – aber genug. Bassmuschi hat die alten Unterlagen gefunden. Seitdem bist du ihre Marionette.\n\nDu hast inzwischen einen neuen Job in einer Praxis am anderen Ende der Stadt. Die wissen nichts von deiner Vergangenheit. Noch nicht.",
+        "background": "Du bist die Nachtschwester von NULL:UHR - und das ist keine Übertreibung. Seit fünf Jahren bist du bei jedem Rave dabei, immer mit deiner Tasche voller Elektrolyt-Pulver, Pflaster, Ibuprofen und Traubenzucker. Wenn jemand überhitzt, bist du da. Wenn jemand zu viel getrunken hat, bist du da. Wenn jemand einen schlechten Trip hat, bist du da.\n\nDie Leute lieben dich dafür. 'Lena hat mir das Leben gerettet' - das hörst du öfter als dir lieb ist. Du bist die Fürsorgliche, die Kümmerin, die gute Seele des Kellers.\n\nBassmuschi und du habt euch 2020 auf einem kleinen Rave kennengelernt. Sie war damals noch nicht 'Bassmuschi' – nur Eva, eine Möchtegern-DJane mit großen Träumen und wenig Talent.\n\nDu hast sie aufgebaut. Du hast an sie geglaubt. Du hast ihr geholfen.\n\nUnd dann hat sie dein Geheimnis entdeckt.\n\nVor drei Jahren hast du deinen Job als MFA verloren. Der offizielle Grund: 'Unstimmigkeiten bei der Medikamentenabrechnung.' Die Wahrheit: Du hast Rezepte gefälscht und Pillen verkauft. Nicht viel, nicht lange – aber genug. Bassmuschi hat die alten Unterlagen gefunden. Seitdem bist du ihre Marionette.\n\nDu hast inzwischen einen neuen Job in einer Praxis am anderen Ende der Stadt. Die wissen nichts von deiner Vergangenheit. Noch nicht.",
         "relationshipToBassmuschi": "Früher: Beste Freundinnen. Du warst ihre erste echte Unterstützerin.\n\nHeute: Du hasst sie. Aber du zeigst es nie. Seit zwei Jahren besorgst du ihr alles – Aufputschmittel, Beruhigungsmittel, was sie braucht. Sie zahlt nie. Sie droht nur.\n\nLetzte Woche hat sie mehr verlangt. Härteres Zeug. Du hast nein gesagt. Sie hat gelacht und gesagt: 'Dann rufe ich morgen in deiner neuen Praxis an.'",
         "secret": "Du hast nicht nur Medikamente verkauft – du hast sie an Minderjährige verkauft. Ein einziges Mal. Ein Fehler. Aber Bassmuschi hat einen Chat-Verlauf, der dich vernichtet.",
         "motive": "Heute Nacht ist es eskaliert. Hinter den Decks, als alle abgelenkt waren. Sie hat dir ins Gesicht gesagt: 'Du wirst mir bis Mitternacht das Zeug besorgen, oder ich rufe deine Chefin an. Und dann schicke ich die Chats ans Gesundheitsamt.'\n\nDu hast rot gesehen. Du hattest die Spritze dabei – für den Notfall, hast du dir eingeredet. Ein Beruhigungsmittel. Hohe Dosis. Du wolltest sie nur ruhigstellen. Nur für eine Stunde. Nur damit du nachdenken kannst.\n\nEs war zu viel.",
@@ -25,53 +25,52 @@
           "Micha war gestern Nacht schon im Keller. Er hat etwas gesucht."
         ],
         "yourGoal": "Überlebe diese Nacht. Du bist keine Mörderin – du bist ein Opfer, das zurückgeschlagen hat. Lenke den Verdacht auf Micha oder Eva. Sie haben stärkere Motive. Bleib ruhig. Trink nicht zu viel – obwohl du es brauchst. Eine Nacht. Du schaffst das.",
-        "falseAlibi": "Wenn jemand fragt, wo du um 21:00 warst: Du warst auf der Toilette. Übelkeit. Das Essen von Fabi R. – du hast es nicht vertragen. Du bist erst zurückgekommen, als der Schrei kam.",
+        "falseAlibi": "Wenn jemand fragt, wo du um 21:00 warst: Du warst auf der Toilette. Übelkeit. Die Aufregung, der Stress – dir war schlecht. Du bist erst zurückgekommen, als der Schrei kam.",
         "isMurderer": true
       },
-      "dresscode": "Schwarz. Wie immer. Unauffällig."
+      "dresscode": "Praktisch aber stylisch. Dunkle Töne, bequeme Schuhe. Vielleicht ein kleines rotes Kreuz als Accessoire?"
     },
     {
       "id": "svenja",
       "realName": "Svenja Schröder",
-      "roleName": "OnePiece_Queen",
-      "publicDescription": "Hackerin. Technikerin. Sie kontrolliert Licht und Sound.",
+      "roleName": "Glitch Girl",
+      "publicDescription": "Technikerin. Die Anlage läuft über sie. Ohne Svenja kein Sound, kein Licht, kein Rave.",
       "privateInfo": {
-        "background": "Du bist das technische Gehirn hinter NULL:UHR. Ohne dich läuft nichts – buchstäblich. Du kontrollierst die Anlage, das Licht, die Nebelmaschinen.",
-        "relationshipToBassmuschi": "Geschäftsbeziehung. Sie zahlt, du lieferst. Aber Respekt? Fehlanzeige. Sie behandelt dich wie eine Dienstleisterin.",
-        "secret": "Du hast entdeckt, dass jemand die Anlage manipuliert hat. Die Software wurde gehackt. Du weißt nicht von wem – aber du weißt, dass heute Nacht etwas passieren sollte.",
-        "motive": "Bassmuschi hat dich letzte Woche vor allen bloßgestellt. Hat gesagt, jeder Idiot könnte deinen Job machen. Das hat gesessen.",
+        "background": "Tagsüber arbeitest du in der Marketing-Abteilung - SEO-Optimierung, Keywords, Klickraten. Ein solider Job, der dir Spaß macht.\n\nNachts bist du die Technikerin von NULL:UHR. Anlage, Licht, Nebelmaschinen - alles läuft über dich. Du bist gut. Verdammt gut. Und das weißt du auch.\n\nDu bist niemand, der sich versteckt. Wenn jemand Scheiße labert, labberst du zurück. Schnell, scharf, präzise. Die meisten trauen sich nicht, dich anzugehen.\n\nBassmuschi war nicht 'die meisten'.",
+        "relationshipToBassmuschi": "Sie hat dich nicht frontal angegriffen - das hätte nicht funktioniert. Sie war subtiler. Hinterhältiger.\n\nKommentare, wenn andere dabei waren. 'Svenja, erklär mal, warum der Sound heute so kratzig ist.' Keine Anschuldigung - eine Frage. Aber der Tonfall sagt alles.\n\nWenn du gekontert hast, hat sie gelacht. 'Gott, Svenja, war doch nur ein Witz. Bist du immer so empfindlich?'\n\nLetzte Woche hat sie zu weit gezogen. Vor allen: 'Svenja ist ersetzbar. Jeder Depp mit YouTube-Tutorial kann das.'\n\nDu hast zurückgeschossen: 'Dann ersetz mich doch. Mal sehen, wie dein nächster Rave ohne Strom läuft.'\n\nDie Leute haben gelacht - aber nervös. Bassmuschi hat dich angestarrt. Kalt.\n\n'Pass auf, was du sagst, Technik-Maus.'",
+        "secret": "Du bist stark. Normalerweise. Aber auch starke Menschen haben Grenzen.\n\nDie Sache mit Bassmuschi hat dich mehr getroffen, als du zugeben willst. Nicht ihre Worte - die sind dumm. Aber dass niemand was gesagt hat. Dass alle nur dagestanden sind.\n\nNach dem Streit bist du rausgegangen - nicht weil du geheult hast, sondern weil du kurz davor warst, ihr eine zu klatschen.\n\nLukas kam nach. Ohne Habibi-Show. Einfach Lukas. Er hat gefragt: 'Alles okay?' Und du hast gesagt: 'Ja.' Und er hat gesagt: 'Bullshit.'\n\nIhr habt geredet. Richtig geredet. Du hast ihm erzählt, wie es ist, immer die zu sein, die sich wehrt. Wie müde das manchmal macht.\n\nEr hat zugehört. Nicht versucht zu fixen. Nur zugehört.\n\nSeitdem ist da... etwas. Unausgesprochen.",
+        "motive": "Du wolltest Bassmuschi nicht tot. Du wolltest, dass sie aufhört. Oder verschwindet.\n\nAber echt umbringen? Nee.\n\nWas du allerdings WEISST: Die Anlage wurde gehackt. Jemand hat den Code manipuliert. Professionell. Heute Nacht sollte etwas passieren - ein Blackout, eine Nachricht auf den Screens, irgendwas.\n\nDu hast es Lukas erzählt. Nur ihm.\n\nUnd jetzt fragst du dich: Hat das mit dem Mord zu tun?",
         "whatYouKnow": [
-          "Die Anlage wurde sabotiert – jemand hat den Code verändert.",
-          "Du hast gesehen, wie Micha gestern Nacht alleine im Keller war.",
-          "Bassmuschi hat ihre Sets gar nicht selbst gemixt – alles KI-generiert."
+          "Die Anlage wurde sabotiert. Du hast den manipulierten Code gefunden - jemand wollte heute Nacht etwas auslösen.",
+          "Micha war gestern Nacht alleine im Keller. Was hat er da gemacht?",
+          "Bassmuchis Musik ist komplett KI-generiert. Du hast die Dateien auf ihrem Laptop gesehen.",
+          "Abu Lukez ist cleverer als er tut. Und er hat Bassmuschi heute Nacht bedroht - wegen DIR."
         ],
-        "yourGoal": "Finde heraus, wer die Anlage gehackt hat. War es der Mörder?",
+        "yourGoal": "Finde heraus, wer gehackt hat. Das ist DEINE Anlage - jemand hat DEIN System kompromittiert. Das ist persönlich.\n\nAber Vorsicht: Lukas hat sich für dich in Gefahr gebracht. Wenn rauskommt, dass er Bassmuschi bedroht hat, wird er verdächtig. Du musst ihn schützen - ohne dass es auffällt.\n\nUnd vielleicht, wenn das hier vorbei ist... vielleicht redest du nochmal mit ihm. Über mehr als nur Sabotage.",
         "isMurderer": false
       },
-      "dresscode": "Cyberpunk-Vibes. Hoodie, Neon-Akzente, vielleicht LED-Accessoires."
+      "dresscode": "Tech-Girl-Vibes. Hoodie, Sneakers, vielleicht ein paar Neon-Akzente. Praktisch aber stylish."
     },
     {
       "id": "eva-s",
       "realName": "Eva Schnabrich",
-      "roleName": "Die Bankerin",
-      "publicDescription": "Sponsorin des Raves. Tagsüber seriös, nachts... weniger.",
+      "roleName": "Die Sponsorin",
+      "publicDescription": "Die inoffizielle Finanzministerin von NULL:UHR. Wenn der Wodka ausgeht, zahlt Eva. Warum? Frag nicht.",
       "privateInfo": {
         "background": "Du arbeitest bei einer Bank. Seriöser Job, gutes Gehalt, respektable Karriere. Von außen: die perfekte Frau. Von innen: ein Kartenhaus, das jeden Moment einstürzen kann.\n\nVor zwei Jahren hat Bassmuschi dir einen Vorschlag gemacht. NULL:UHR generiert viel Bargeld – Eintritt, Getränke, alles cash. Niemand führt Buch. 'Hilf mir, das sauber zu machen', hat sie gesagt. 'Wir teilen 50/50.'\n\nDu hast ja gesagt. Der größte Fehler deines Lebens.\n\nSeitdem wäschst du Geld über den Rave. Kleine Beträge, regelmäßig, unauffällig. Deine Bank-Kenntnisse machen es einfach. Zu einfach. Du hast aufgehört zu zählen, wie viel es insgesamt ist.",
         "relationshipToBassmuschi": "Geschäftspartnerinnen im dunkelsten Sinne. Ihr braucht euch gegenseitig – und ihr hasst euch dafür.\n\nAm Anfang war es fast freundschaftlich. Zwei Frauen, die das System austricksen. Girl Power, irgendwie.\n\nDann wurde Bassmuschi gierig. Mehr Geld. Größere Summen. Und vor einem Monat: Erpressung.\n\n'Ich will 50.000 Euro. Bis Silvester. Oder ich gehe zur Polizei und erzähle, wer die Konten verwaltet.'",
         "secret": "Du hast das Geld nicht. Nicht so schnell. Du hast versucht, es zu beschaffen – aber 50.000 in bar, ohne Spuren? Unmöglich.\n\nHeute Nacht ist die Deadline. Mitternacht. Du hast einen Umschlag dabei – mit 15.000 Euro. Alles, was du auftreiben konntest.\n\nEs wird nicht reichen.",
-        "motive": "Heute Abend hast du versucht, mit ihr zu verhandeln. Hinter der Bar, als niemand zugehört hat. Du dachtest.\n\nSie hat gelacht. '15.000? Das ist ein Witz. Um Mitternacht will ich alles sehen, oder ich rufe morgen früh die Kripo an.'\n\nDu hast geantwortet – lauter als geplant: 'Dann muss ich das Problem eben anders lösen.'\n\nLukas hat es gehört. Vielleicht auch Fabi R. Du weißt es nicht.\n\nDu hast es nicht so gemeint. Aber jetzt ist sie tot.",
+        "motive": "Heute Abend hast du versucht, mit ihr zu verhandeln. Hinter der Bar, als niemand zugehört hat. Du dachtest.\n\nSie hat gelacht. '15.000? Das ist ein Witz. Um Mitternacht will ich alles sehen, oder ich rufe morgen früh die Kripo an.'\n\nDu hast geantwortet – lauter als geplant: 'Dann muss ich das Problem eben anders lösen.'\n\nLukas hat es gehört. Du weißt es nicht.\n\nDu hast es nicht so gemeint. Aber jetzt ist sie tot.",
         "whatYouKnow": [
           "Bassmuschi war pleite. Komplett. Ihr Lifestyle war eine Fassade – finanziert durch Erpressung und Betrug.",
           "Du hast Kevin und Bassmuschi gesehen, wie sie sich heimlich unterhalten haben. Er kennt sie von früher. Er hat sie 'Eva' genannt.",
-          "Fabi R. hat Bassmuschi mit 'Spezialitäten' versorgt. Du weißt nicht genau was, aber es war nicht nur Wurst.",
-          "Du hast Fabi R. heute gefragt, ob er 'etwas Starkes' hat. Zum Beruhigen. Für dich."
+          "Bassmuschi war abhängig von Aufputschmitteln. Irgendjemand hat sie versorgt – aber wer?"
         ],
         "yourGoal": "Niemand darf von der Geldwäsche erfahren. NIEMAND.\n\nWenn das rauskommt: Job weg, Karriere zerstört, wahrscheinlich Gefängnis.\n\nSpiel die Ahnungslose. Du bist die seriöse Bankerin, die zufällig auf Raves geht. Du hattest keinen Grund, Bassmuschi zu töten – offiziell.\n\nUnd dieser Umschlag mit 15.000 Euro? Den musst du loswerden. Schnell.",
         "isMurderer": false,
         "suspiciousDetails": [
           "Hat einen Umschlag mit viel Bargeld dabei",
           "Wurde gehört: 'Dann muss ich das Problem eben anders lösen'",
-          "Hat Fabi R. nach 'etwas Starkem' gefragt",
           "War 'kurz draußen telefonieren' um 21:00 – keine Zeugen",
           "Wirkt nervös, kontrolliert, antwortet zu präzise"
         ]
@@ -82,18 +81,19 @@
       "id": "steffi",
       "realName": "Stefanie Reif",
       "roleName": "Glitterqueen",
-      "publicDescription": "Tänzerin. Stand immer neben Bassmuschi auf der Bühne. Immer einen Schritt dahinter.",
+      "publicDescription": "Tanzt, als würde niemand zuschauen - obwohl ALLE hinschauen. Die Glitter-Königin des Kellers.",
       "privateInfo": {
-        "background": "Du bist die beste Tänzerin der Szene. Alle wissen es. Aber wer bekommt die Aufmerksamkeit? Bassmuschi. Immer nur Bassmuschi. Du stehst im Schatten einer Frau, die nicht mal richtig mixen kann.",
-        "relationshipToBassmuschi": "Offiziell: beste Freundinnen, Dream-Team. Inoffiziell: Du hasst sie. Sie hat dich jahrelang kleingehalten.",
-        "secret": "Du wolltest selbst DJ werden. Hattest einen Demo-Track fertig. Bassmuschi hat ihn gehört – und dann einen 'eigenen' Track rausgebracht, der verdächtig ähnlich klang. Sie hat dich bestohlen.",
-        "motive": "Diebstahl und Demütigung. Jahre davon. Heute Nacht sollte DEIN Moment werden.",
+        "background": "Du warst mal auf dem Weg nach oben. Wirklich.\n\nMit 19 hast du eine Ausbildung zur Bühnentänzerin angefangen. Mit 21 die ersten bezahlten Auftritte - Clubs in Nürnberg, ein Festival in München, sogar ein Musikvideo für einen Indie-Rapper. Die Leute haben deinen Namen gekannt. 'Steffi Reif - die mit den Moves.'\n\nDann hast du Bassmuschi kennengelernt. 2021, auf einer Afterparty. Sie war begeistert von dir. 'Du bist so talentiert! Wir sollten zusammenarbeiten. Ich kenne Leute, ich kann dir Türen öffnen.'\n\nDu hast ihr geglaubt.\n\nVier Jahre später tanzt du immer noch. Aber nicht auf Bühnen in München. Du tanzt NEBEN Bassmuschi. Als Deko. Als Hintergrund. Als 'die Tänzerin von NULL:UHR' - nicht als Steffi Reif.",
+        "relationshipToBassmuschi": "Es hat schleichend angefangen. Ein Kontakt, den sie 'vergessen' hat weiterzugeben. Ein Auftritt, für den sie dich 'leider nicht empfehlen konnte'. Eine Choreografie, die plötzlich 'nicht mehr zum Set passt'.\n\nJedes Mal hatte sie eine Erklärung. Jedes Mal hast du ihr geglaubt.\n\nVor sechs Monaten hast du es kapiert. Du hattest ein Vortanzen in Berlin - deine große Chance. Backup-Tänzerin für eine Deutschrap-Tour. Du hast es niemandem erzählt, außer ihr. 'Drück mir die Daumen!'\n\nDu hast den Job nicht bekommen. Später hast du erfahren: Jemand hat dem Management geschrieben, du seist 'unzuverlässig' und hättest 'Drogenprobleme'. Die Mail kam von einer Adresse, die du nicht zurückverfolgen konntest.\n\nAber du WEISST, wer es war.",
+        "secret": "Du hast Beweise gesammelt. Heimlich. Screenshots von Gesprächen, in denen Bassmuschi über dich lästert. Eine Aufnahme, wie sie einem Veranstalter sagt: 'Steffi? Nee, die ist nicht gut genug.' Und der Original-Track.\n\nJa, DER Track. 'Glitterball' - du hast ihn 2022 produziert. Dein erster Versuch, eigene Musik zu machen. Du hast ihn Bassmuschi vorgespielt, stolz wie ein Kind.\n\nDrei Monate später hat sie 'Discokugel' released. Gleiche Melodie, gleicher Drop, anderer Name. Du hast sie konfrontiert. Sie hat gelacht: 'Steffi, das sind drei Akkorde. Das kann jeder. Bild dir nichts ein.'\n\nDu hast den Originalfile noch. Mit Timestamp. Aber du hattest nie den Mut, es öffentlich zu machen.",
+        "motive": "Heute Nacht sollte alles anders werden.\n\nDu hast einen Plan: Nach Mitternacht, wenn alle betrunken und glücklich sind, wolltest du auf die Bühne. Das Mikro nehmen. Die Wahrheit erzählen. Vor allen.\n\n'Bassmuschi ist ein Fake. Ihre Musik ist geklaut. Von MIR. Hier sind die Beweise.'\n\nAber jetzt ist sie tot. Und dein großer Moment? Gestorben mit ihr.\n\nOder... ist das vielleicht besser so? Ohne sie kannst du endlich durchstarten. Ohne sie hört dir endlich jemand zu.\n\nDer Gedanke macht dir Angst. Weil er sich gut anfühlt.",
         "whatYouKnow": [
-          "Bassmuchis Musik ist FAKE – alles KI-generiert.",
-          "Du hast gesehen, wie Lena Bassmuschi Pillen gegeben hat.",
-          "Jason weiß mehr über Bassmuschi als er zugibt."
+          "Bassmuchis Musik ist komplett KI-generiert - außer den Tracks, die sie geklaut hat. Du erkennst DEINEN Beat in mindestens zwei ihrer 'Hits'.",
+          "Du hast Lena und Bassmuschi kurz vor 21:00 zusammen gesehen. Sie haben geflüstert. Lena sah extrem nervös aus - fast panisch. Was haben die besprochen?",
+          "Jason hat jahrelang geschwiegen, obwohl er alles wusste. Warum? Was hat SIE gegen IHN?",
+          "Vor zwei Wochen hast du Bassmuschi angeschrien: 'Du hast mir alles gestohlen!' - Lena hat es gehört. Lena hat ALLES gehört."
         ],
-        "yourGoal": "Endlich die Wahrheit ans Licht bringen. Bassmuschi war eine Betrügerin.",
+        "yourGoal": "Die Wahrheit muss rauskommen. Nicht für Rache - für Gerechtigkeit. Du willst deinen Namen zurück.\n\nAber Vorsicht: Dein Motiv ist offensichtlich. Du hast sie öffentlich angeschrien. Du hasst sie - und alle wissen es.\n\nFinde den echten Mörder. Und dann - DANN - erzählst du der Welt, wer Bassmuschi wirklich war.",
         "isMurderer": false
       },
       "dresscode": "VOLLE GLITZER-POWER. Das ist DEINE Nacht. Endlich."
@@ -102,58 +102,62 @@
       "id": "jason",
       "realName": "Jason",
       "roleName": "Velvet Viper",
-      "publicDescription": "Drag-Ikone. Conférencier. Der schillerndste Vogel im Keller.",
+      "publicDescription": "Conférencier. Die Stimme von NULL:UHR. Der schillerndste Vogel im Keller.",
       "privateInfo": {
-        "background": "Du bist die Seele jeder Party. Extravagant, laut, unvergesslich. Bassmuschi und du – ihr wart das Power-Duo der Szene. Zumindest nach außen.",
-        "relationshipToBassmuschi": "Beste Freunde. Du hast alles für sie getan. Und du hast alles gesehen.",
-        "secret": "Du weißt, dass Bassmuschi ein kompletter Fake ist. Die KI-Musik, die zerstörten Karrieren, die Erpressungen. Du hast geschwiegen – aus Loyalität? Aus Angst? Aus Eigennutz?",
-        "motive": "Bassmuschi hat letzte Woche gedroht, ein Video von dir zu leaken. Etwas Peinliches aus deiner Vergangenheit. Die Freundschaft war vorbei.",
+        "background": "Du bist Jason. Der Conférencier von NULL:UHR. Die Stimme, die jeden Abend eröffnet. Der Typ, der die Menge zum Kochen bringt, bevor der erste Beat fällt.\n\n'Willkommen in der Unterwelt, ihr wunderschönen Kreaturen!'\n\nDu liebst es. Die Bühne, die Aufmerksamkeit, die Energie. Du bist extravagant - Glitzer, enge Hosen, Hemden die mehr zeigen als verbergen. Nicht weil du musst, sondern weil du kannst. Weil du endlich du selbst sein kannst.\n\nDie Szene ist dein Zuhause. Hier fragt niemand, warum du so bist. Hier bist du einfach Jason - laut, schillernd, liebenswert.\n\nZu liebenswert, vielleicht.",
+        "relationshipToBassmuschi": "Eva hat dich vor drei Jahren gefunden. Du warst neu in der Szene, unsicher, noch nicht ganz angekommen. Sie hat dich unter ihre Fittiche genommen.\n\n'Jason, du bist ein Star. Du weißt es nur noch nicht.'\n\nSie hat dir die Conférencier-Rolle gegeben. Hat dich aufgebaut, gefördert, gefeiert. Du warst ihr dankbar - so dankbar.\n\nUnd dann hat sie angefangen, Gefallen einzufordern.\n\n'Jason, Schatz, du kennst doch Kevin. Hat er dir mal was erzählt? Irgendwas... Interessantes?'\n\nAm Anfang dachtest du, es ist Klatsch. Harmlos. Du hast erzählt, was du gehört hast. Über Kevin. Über Pätzi. Über Eva S. Du bist gut darin, Leute zum Reden zu bringen - du bist ja so sympathisch, so harmlos, so vertrauenswürdig.\n\nDu hast nicht gemerkt, dass du Waffen lieferst.",
+        "secret": "Du bist Bassmuchis Informant. Seit zwei Jahren.\n\nDu hast ihr erzählt, dass Kevin vorbestraft ist - du hattest es zufällig erfahren, als er betrunken war. Du hast ihr erzählt, dass Eva S. Geldprobleme hat. Du hast ihr erzählt, dass Pätzi irgendwas in den Kellern versteckt.\n\nSie hat alles benutzt. Gegen jeden. Und du hast zugeschaut.\n\nAls du kapiert hast, was du getan hast, war es zu spät. Du wolltest aufhören. Sie hat gelacht.\n\n'Jason, Süßer. Du steckst genauso tief drin wie ich. Glaubst du, die anderen verzeihen dir, wenn sie erfahren, dass DU die Quelle bist? Der liebe Jason? Der, dem alle vertrauen?'\n\nSie hatte recht. Wenn das rauskommt, hasst dich jeder.",
+        "motive": "Du wolltest raus. Wirklich. Du hast aufgehört, ihr Infos zu geben. Hast dich distanziert.\n\nLetzte Woche kam die Quittung.\n\n'Jason, ich habe ein Video. Von der Party letzten Sommer. Du weißt schon welche.'\n\nDu weißt es. Eine Nacht, in der du zu viel getrunken hast. In der du Dinge gesagt hast - über andere Leute, gemeine Dinge, die du nicht so gemeint hast. In der du über Steffi gelästert hast. Über Micha. Über Leute, die du eigentlich magst.\n\nWenn sie das Video zeigt, bist du nicht nur der Informant. Du bist der falsche Freund. Der Heuchler. Der Judas.\n\nHeute Nacht hat sie dir zugeflüstert: 'Ich brauche neue Infos, Jason. Oder das Video geht morgen viral.'",
         "whatYouKnow": [
-          "Bassmuschi hat mindestens drei andere DJs aus der Szene gedrängt – systematisch zerstört.",
-          "Ihre Musik ist komplett KI-generiert. Sie kann gar nicht mixen.",
-          "Micha hatte einen Riesenstreit mit ihr wegen eines geklauten Tracks."
+          "Du weißt ALLES. Du hast jahrelang Geheimnisse gesammelt. Aber jetzt sind diese Geheimnisse Beweise gegen DICH.",
+          "Lena hat Bassmuschi mit Medikamenten versorgt. Du hast sie einmal dabei gesehen und es Bassmuschi erzählt - jetzt benutzt sie es gegen Lena.",
+          "Abu Lukez ist cleverer als er tut. Du hast gemerkt, dass er Fragen stellt. Gezielte Fragen. Er ist hinter irgendwas her.",
+          "Kevin hasst Bassmuschi. WIRKLICH hasst. Du hast seinen Blick gesehen, wenn sie spricht. Da ist etwas Gefährliches."
         ],
-        "yourGoal": "Du hast die meisten Geheimnisse. Nutze sie weise – oder gar nicht.",
+        "yourGoal": "Bassmuschi ist tot. Und du weißt nicht, ob du erleichtert oder verängstigt sein sollst.\n\nErleichtert: Das Video stirbt mit ihr. Vielleicht. Hoffentlich.\n\nVerängstigt: Wenn jemand rausfindet, was du getan hast - dass DU die Quelle ihrer Erpressungen warst - bist du erledigt. Sozial tot.\n\nHalte den Kopf unten. Sei der liebe Jason, den alle kennen. Und bete, dass dein Geheimnis mit Bassmuschi begraben wird.\n\nDu bist kein Mörder. Du bist nicht mal ein schlechter Mensch - nicht wirklich. Du bist nur jemand, der zu nett war, um nein zu sagen. Und jetzt steckst du bis zum Hals in der Scheiße.",
         "isMurderer": false
       },
-      "dresscode": "EXTRAVAGANZ PUR. Drag, Glitzer, Federn, alles. Wenn nicht heute, wann dann?"
+      "dresscode": "EXTRAVAGANZ PUR. Glitzer, enge Hosen, offene Hemden. Schillernd und selbstbewusst."
     },
     {
       "id": "lukas",
       "realName": "Lukas Kraus",
-      "roleName": "DJ Habibi",
-      "publicDescription": "Szene-Legende. Bekannt für seine wilden Auftritte. Bassmuchis größter Fan – oder größter Rivale?",
+      "roleName": "Abu Lukez",
+      "publicDescription": "Szene-Legende. Bekannt für seine wilden Auftritte. Der Talahon der Turntables - aber steckt mehr dahinter?",
       "privateInfo": {
-        "background": "Du bist DJ Habibi – der Talahon der Turntables. Deine Auftritte sind legendär, dein Akzent noch legendärer. Die Leute lieben dich. Bassmuschi... hatte gemischte Gefühle.",
-        "relationshipToBassmuschi": "Ihr hattet mal was. Eine heiße, kurze Affäre. Dann hat sie dich abserviert. Vor allen. Peinlich.",
-        "secret": "Du bist nicht drüber hinweg. Die Demütigung sitzt tief. Du hast so getan, als wärs dir egal – aber das war gelogen.",
-        "motive": "Sie hat dich öffentlich gedemütigt. Hat gesagt, du wärst 'nur ein Witz'. Das vergisst du nicht.",
+        "background": "Wallah, Bruder - du bist Abu Lukez. Der Talahon der Turntables. Der Typ mit dem fake Akzent, den wilden Moves und der größten Klappe im Keller.\n\nWas niemand weiß: Das ist alles Show.\n\nIn Wahrheit bist du Lukas. Tüftler, Denker, jemand der nicht wegschauen kann, wenn Unrecht passiert. Die Abu-Lukez-Persona? Die hast du dir vor Jahren zugelegt, als Witz. Aber dann hast du gemerkt: Niemand nimmt den 'Talahon' ernst. Niemand vermutet Tiefgang hinter dem Goldketten-Gangster.\n\nDas ist deine Superkraft.\n\nDu feierst gern, klar. Du liebst die Szene, die Musik, die Nächte im Keller. Aber du hast auch Augen. Und irgendwann hast du gesehen, was Bassmuschi wirklich treibt.",
+        "relationshipToBassmuschi": "Ja, ihr hattet was. Kurz, heiß, vorbei. Das ist nicht das Problem.\n\nDas Problem ist, was du danach gesehen hast. Wie sie Steffi kleingehalten hat. Wie sie Micha den Track geklaut hat. Wie sie Pätzi, Kevin, Eva S. - alle - in der Hand hat. Wie sie Menschen benutzt und wegwirft.\n\nDein Gerechtigkeitssinn hat rebelliert. Du konntest nicht einfach weiter feiern und so tun, als wäre alles cool.\n\nAlso hast du angefangen zu handeln. Anonym.\n\nDie öffentliche Demütigung vor drei Monaten? Das war kein Zufall. Bassmuschi hat DICH verdächtigt, der 'Schatten' zu sein. Sie hat die Affäre öffentlich gemacht, hat dich als 'besessenen Ex' dargestellt - ein Präventivschlag. Falls du jemals redest, würde jeder denken: 'Ach, der Lukez. Der ist doch nur bitter.'",
+        "secret": "Seit acht Monaten bist du 'Der Schatten'. So hast du dich in den anonymen Nachrichten genannt.\n\n- Du hast Steffi einen Hinweis geschickt, dass Bassmuschi ihre Berlin-Chance sabotiert hat.\n- Du hast Micha gewarnt, dass sein Track geklaut wurde - mit technischer Analyse als Beweis.\n- Du hast Eva S. eine Nachricht geschrieben: 'Sie wird dich fallen lassen. Sammle Beweise.'\n\nAlles anonym. Alles von Wegwerf-Accounts. Alles mit der Sorgfalt eines Tüftlers, der keine Spuren hinterlässt.\n\nAber Bassmuschi hat gemerkt, dass jemand gegen sie arbeitet. Ihre Opfer wurden plötzlich mutiger. Stellten Fragen. Wehrten sich.",
+        "motive": "Svenja.\n\nDu siehst, wie Bassmuschi sie behandelt. Vor allen Leuten. 'Svenja, das Licht ist scheiße.' 'Svenja, der Sound kratzt.' 'Svenja, das kann ja jeder Idiot.'\n\nLetzte Woche hat Bassmuschi sie vor allen bloßgestellt. Svenja ist danach rausgestürmt - nicht weinend, sondern kurz davor zu explodieren. Du hast sie draußen gefunden, die Fäuste geballt, am Durchdrehen. Du hast sie beruhigt, mit ihr geredet. Sie hat dir erzählt, wie müde sie es ist, sich ständig wehren zu müssen. Wie alleine sie sich manchmal fühlt.\n\nSeitdem siehst du rot.\n\nHeute Nacht hast du Bassmuschi abgefangen. Ohne Abu-Lukez-Maske. Ernsthaft.\n\n'Lass Svenja in Ruhe. Ich meine es ernst.'\n\nSie hat gelacht. 'Oder was, Lukas? Du bist ein Witz.'\n\nDu hast geantwortet - zu ruhig: 'Wenn du sie nochmal so behandelst, sorge ich dafür, dass alle erfahren, wer du wirklich bist. Alles.'\n\nSie hat dich angestarrt. 'Das wirst du bereuen, Habibi.'\n\nEine Stunde später war sie tot.",
         "whatYouKnow": [
-          "Bassmuschi hatte Angst vor irgendwas. Sie war in den letzten Wochen paranoid.",
-          "Du hast gesehen, wie Eva S. ihr einen Umschlag mit Bargeld gegeben hat.",
-          "Pätzi kennt die Keller besser als jeder andere – er weiß Dinge."
+          "Du hast ein Dossier über Bassmuschi. Alles dokumentiert - die KI-Musik, die geklauten Tracks, die Erpressungen. Auf einem USB-Stick, sicher versteckt.",
+          "Kevin und Pätzi kennen Eva von früher. Die haben beide Dreck am Stecken - aber sie sind auch Opfer.",
+          "Bassmuschi war zuletzt paranoid. Sie hat den 'Schatten' gesucht. Hat Leute ausgefragt: 'Wer steckt dahinter?'",
+          "Du hast gesehen, wie Eva S. ihr den Geldumschlag gegeben hat - und gehört wie sie sagte: 'Dann muss ich das Problem eben anders lösen.' Die Bankerin ist tiefer drin, als alle denken.",
+          "Svenja hat dir erzählt, dass jemand die Anlage manipuliert hat. Sie weiß nicht wer - aber heute Nacht sollte irgendetwas passieren."
         ],
-        "yourGoal": "Zeig allen, dass du mehr bist als ein Witz. Aber halt dich aus dem Mordverdacht raus.",
+        "yourGoal": "Bassmuschi ist tot. Und du fühlst... Erleichterung? Sie kann Svenja nicht mehr wehtun.\n\nAber jetzt hast du ein Problem: Dein Dossier. Deine anonymen Nachrichten. Deine Drohung von heute Abend - hat das jemand gehört?\n\nFinde den echten Mörder. Schnell. Denn wenn es nach Motiven geht, stehst du ganz oben auf der Liste.\n\nUnd Svenja? Schütze sie. Egal was passiert. Sie darf nicht in diesen Dreck reingezogen werden.\n\nEines ist sicher: Die Abu-Lukez-Maske bleibt auf. Wallah, Bruder - noch ist nicht die Zeit, den echten Lukas zu zeigen.",
         "isMurderer": false
       },
-      "dresscode": "Full Habibi-Mode. Trainingsanzug? Goldketten? Du weißt was zu tun ist, Bruder."
+      "dresscode": "Full Abu-Lukez-Mode. Trainingsanzug? Goldketten? Du weißt was zu tun ist, Bruder."
     },
     {
       "id": "lucas",
       "realName": "Lucas Baierwaltes",
-      "roleName": "Der Captain",
-      "publicDescription": "Security-Chef. Hat den Rave abgesichert. Hat alles im Griff. Oder?",
+      "roleName": "Der Regulierer",
+      "publicDescription": "Location-Organisator. Hat den Rave möglich gemacht. Hat alles im Griff. Oder?",
       "privateInfo": {
-        "background": "Du organisierst die Security für NULL:UHR. Ein Nebenjob, der gut zahlt. Aber Bassmuschi hat einen Weg gefunden, das kompliziert zu machen.",
-        "relationshipToBassmuschi": "Arbeitgeber-Verhältnis – bis sie angefangen hat, dich zu erpressen.",
-        "secret": "Bassmuschi wusste etwas über dich und den Fußballverein. Vielleicht Spielmanipulation? Vielleicht schwarze Kassen? Was auch immer – sie hatte Beweise.",
-        "motive": "Erpressung. Sie hat gedroht, alles öffentlich zu machen, wenn du nicht spurst.",
+        "background": "Du bist Leiter Prozessgestaltung in der Schadensabteilung bei der HUK-COBURG. Du designst die Abläufe, du kennst jedes Schlupfloch, du weißt genau, wie Fälle durchgewunken oder abgelehnt werden.\n\nUnd genau dieses Wissen hat dich erpressbar gemacht.\n\nVor einem Jahr hat Pätzi dich um einen Gefallen gebeten. Ihr kennt euch seit der Schulzeit - er war immer der Chaot, du der Vernünftige. 'Lucas, ich brauch eine Versicherung für die Keller-Partys. Aber offiziell geht das nicht. Kannst du was drehen?'\n\nDu hättest nein sagen sollen. Stattdessen hast du einen Prozess designt, der deine eigene Unterschrift umgeht. Eine Veranstalterhaftpflicht für 'private Feiern in historischen Kellergewölben' - mit geschönter Risikobewertung, ohne Vor-Ort-Prüfung, durchgewunken von einem Kollegen, dem du einen Gefallen schuldest.\n\nDu wusstest nicht, dass Bassmuschi alles dokumentiert hat. Jede Mail, jeden Antrag, jede Lücke im Prozess, die DU geschaffen hast.",
+        "relationshipToBassmuschi": "'Du bist nicht irgendein Sachbearbeiter, Lucas. Du bist LEITER. Du hast das SYSTEM manipuliert. Weißt du, was die HUK mit dir macht, wenn das rauskommt?'\n\nSie hatte recht. Als Führungskraft bist du nicht nur verantwortlich - du bist das Beispiel. Wenn rauskommt, dass der Leiter Prozessgestaltung seine eigenen Prozesse für illegale Raves missbraucht hat, bist du nicht nur gefeuert. Du bist ein Skandal.\n\nSeitdem organisierst du die Security für NULL:UHR. Kostenlos. Du kontrollierst Zugänge, du sorgst für Ordnung, du hältst die Klappe. Und du hast noch zwei weitere Policen durchgedrückt - jede einzelne ein Kündigungsgrund.",
+        "secret": "Drei gefälschte Policen. Geschätzter Haftungsrahmen: 80.000€.\n\nAber das Schlimmste: Du hast als Leiter einen PROZESS manipuliert. Das ist nicht ein Fehler - das ist systematischer Betrug. Die HUK würde dich nicht nur feuern, sie würde dich verklagen. Schadenersatz. Rufschädigung. Deine Karriere in der Versicherungsbranche wäre für immer vorbei.\n\nUnd Pätzi? Der steckt mit drin. Ihr seid aneinander gekettet.",
+        "motive": "Heute Abend, kurz vor 21:00. Bassmuschi hat dich in eine Ecke gezogen.\n\n'Ab Januar zahlst du. 500 im Monat. Oder ich schicke deiner Geschäftsführung ein kleines Dossier. Mit Zeitstempeln. Und deiner digitalen Signatur.'\n\nDu hast geantwortet: 'Ich bin fertig mit dir. Das ist vorbei.'\n\nSie hat gelacht: 'Nichts ist vorbei, Herr Prozessleiter. Gar nichts.'",
         "whatYouKnow": [
-          "Du hast die Zugänge zum Keller kontrolliert – du weißt genau, wer wann rein und raus ist.",
-          "Kurz vor dem Mord ist Lena für 15 Minuten verschwunden. 20:55 bis 21:10 – das ist lang für eine Toilettenpause.",
-          "Fabi Völk hat heimlich mit Bassmuschi geflirtet."
+          "Du kontrollierst die Zugänge - du weißt genau, wer wann rein und raus ist. Lena war von 20:55 bis 21:10 verschwunden.",
+          "Pätzi und du seid beide erpresst worden. Hat er die Nerven verloren?",
+          "Du hast gesehen, wie Fabi Völk heute Abend nervös mit Bassmuschi geflüstert hat.",
+          "Es gibt einen Seiteneingang, den nur du und Pätzi kennen. Heute Nacht war die Tür unverschlossen - das war sie vorher nie."
         ],
-        "yourGoal": "Nutze dein Wissen über die Zugänge. Du weißt mehr als du sagst.",
+        "yourGoal": "Bassmuschi ist tot. Das könnte deine Rettung sein - oder dein Untergang.\n\nFinde heraus, ob sie Beweise hinterlassen hat. Mails, Notizen, Screenshots. Wenn ja - finde sie, bevor es jemand anders tut.\n\nUnd Pätzi? Ihr müsst reden. Heute Nacht. Aber vorsichtig - wenn er der Mörder ist, will er vielleicht keine Zeugen.",
         "isMurderer": false
       },
       "dresscode": "Security-Vibes. Schwarz, praktisch, vielleicht ein Earpiece als Accessoire."
@@ -180,46 +184,25 @@
       "dresscode": "Instagram-ready. Aber rave-tauglich. Ring-Light optional."
     },
     {
-      "id": "fabi-r",
-      "realName": "Fabian Rebhan",
-      "roleName": "Wurstwasser",
-      "publicDescription": "Der Catering-Dealer. Vertickt seine 'Spezialitäten' im Keller.",
-      "privateInfo": {
-        "background": "Du machst die beste Wurst in Kronach. Das ist keine Übertreibung – es ist Fakt. Deine Metzgerei läuft gut, die Kunden lieben dich, das Geschäft brummt.\n\nTagsüber.\n\nNachts bist du 'Wurstwasser' – der Catering-King der Underground-Szene. Du versorgst die Raves mit Snacks, Getränken und... anderen Sachen.\n\nEs hat klein angefangen. Ein Freund hat gefragt, ob du 'was zum Wachbleiben' besorgen kannst. Du hattest Kontakte. Ein Gefallen hier, ein Gefallen da. Plötzlich warst du der Go-to-Guy für alles, was die Party am Laufen hält.\n\nKeine harten Drogen – das ist deine Regel. Aufputschmittel, Benzos, manchmal was Pflanzliches. Genug, um illegal zu sein. Genug, um alles zu verlieren.",
-        "relationshipToBassmuschi": "Bassmuschi war deine beste Kundin. Und dein größtes Problem.\n\nSie hat auf Pump gekauft. Immer. 'Nächste Woche, Fabi. Versprochen.' Das ging seit acht Monaten so. Inzwischen schuldet sie dir über 3000 Euro.\n\nVor zwei Wochen hast du sie konfrontiert. Höflich, aber bestimmt. Ihre Antwort?\n\n'Fabi, Fabi. Du willst dein Geld? Kein Problem. Ich erzähle einfach der Polizei, woher ich meine Sachen hatte. Dann sind wir quitt.'\n\nSeitdem bist du still.",
-        "secret": "Du weißt nicht, wer Bassmuschi getötet hat. Aber du weißt Dinge, die wichtig sein könnten.\n\n**Heute Nacht, gegen 20:30**: Eva S. kam zu dir und fragte nach 'etwas Starkem zum Beruhigen'. Du hast ihr Baldrian-Tropfen gegeben – nichts Illegales. Aber warum war sie so nervös?\n\n**Vor einer Woche**: Fabi Völk hat dich gefragt, ob du 'was zum Ruhigstellen' hast. Für wen? Er wollte es nicht sagen.\n\n**Und dann ist da noch Lena.** Sie hat dir vor drei Tagen eine Nachricht geschickt: 'Hast du noch was von dem Zeug von letztem Mal?' Du hast nicht geantwortet – du wolltest aus dem Geschäft raus. Aber die Nachricht ist noch auf deinem Handy.",
-        "motive": "3000 Euro. Für die Metzgerei ist das viel Geld – du hast Lieferanten, Miete, Personal.\n\nDu hast Bassmuschi nicht getötet. Natürlich nicht. Du bist Metzger, kein Mörder.\n\nAber als du gehört hast, dass sie tot ist? Dein erster Gedanke war: 'Die Schulden sind weg.'\n\nUnd dein zweiter Gedanke war: 'Scheiße. Das sieht nicht gut aus.'",
-        "whatYouKnow": [
-          "Eva S. wollte heute 'etwas zum Beruhigen' – warum?",
-          "Fabi Völk wollte 'was zum Ruhigstellen' – für wen?",
-          "Lena hat vor drei Tagen nach Substanzen gefragt. Die Nachricht ist noch auf deinem Handy.",
-          "Bassmuschi war abhängig. Von allem Möglichen. Sie hat funktioniert, weil du sie am Laufen gehalten hast.",
-          "Pätzi ist mal in einen Seitengang verschwunden, den es offiziell nicht gibt. Was macht der da unten?"
-        ],
-        "yourGoal": "Halt dich aus dem Scheinwerferlicht. Du hast genug eigenen Dreck am Stecken.\n\nABER: Du hast Informationen. Die Nachricht von Lena. Die Anfragen von Eva und Fabi V.\n\nWenn du diese Infos teilst, wirst du zum wichtigen Zeugen. Aber dann fragen alle: 'Woher weißt du das, Fabi? Was genau verkaufst du da?'\n\n**Entscheide weise**: Schweigen und hoffen, dass niemand fragt? Oder reden und dich selbst belasten?",
-        "isMurderer": false
-      },
-      "dresscode": "Praktisch. Schürze? Fleischer-Vibes? Du versorgst die Meute."
-    },
-    {
       "id": "fabi-v",
       "realName": "Fabian Völk",
       "roleName": "Protein Prince",
-      "publicDescription": "Fitness-Influencer. Muskeln und Geheimnisse.",
+      "publicDescription": "Sportlich, bodenständig, einer von den Guten. Aber auch gute Menschen haben Geheimnisse.",
       "privateInfo": {
-        "background": "Du bist der Fitness-Guru der Gruppe. Gym ist Life. Aber auch Fitness-Bros haben Geheimnisse.",
-        "relationshipToBassmuschi": "Es ist kompliziert. Sehr kompliziert.",
-        "secret": "Du hattest eine Affäre mit Bassmuschi. Niemand weiß davon. Es war heiß, es war heimlich, und es ist schlecht geendet. Sie wollte mehr, du hast abgeblockt.",
-        "motive": "Sie hat gedroht, es öffentlich zu machen. Deine Freundin (falls du eine hast) würde es erfahren. Alle würden es erfahren.",
+        "background": "Du bist Fabi. Sportlich, bodenständig, einer von den Guten. Die Leute mögen dich - weil du echt bist. Kein Fake, kein Drama, einfach ein solider Typ.\n\nFitness ist dein Ding, klar. Aber nicht wegen Instagram-Likes oder Sponsoren-Deals. Du trainierst, weil es dir gut tut. Weil es dich fokussiert.\n\nDu bist auch einer der wenigen Menschen, die Lena wirklich kennen. Nicht die stille, unauffällige Lena, die alle sehen. Die echte Lena - die mit dem trockenen Humor, der Verletzlichkeit, die sie versteckt, und den Dämonen, die sie mit sich rumschleppt.\n\nIhr seid seit Jahren befreundet. Richtig befreundet. Sie ist wie eine Schwester für dich.",
+        "relationshipToBassmuschi": "Es gab keine Affäre. Nicht wirklich.\n\nEs gab EINEN Abend. Vor drei Monaten. Nach einer Party, zu viel Alkohol, Bassmuschi war plötzlich da, hat sich an dich rangeschmissen. Du hast sie abgewiesen - höflich aber bestimmt.\n\nSie hat es nicht gut aufgenommen.\n\n'Fabi, Fabi. Du denkst, du bist was Besseres?' Sie hat gelacht. 'Ich erzähle allen, dass wir was hatten. Wort gegen Wort.'\n\nSeitdem behauptet sie, ihr hättet eine Affäre gehabt. Pätzi hat euch zusammen gesehen (in SEINEM Lager - Bassmuschi hat dich hingelockt, um 'Beweise' zu schaffen). Jetzt denkt jeder, du lügst.\n\nDas Schlimmste? Du hattest damals eine Freundin. Sie hat die Gerüchte gehört. Sie hat dir nicht geglaubt. Ihr habt euch getrennt.\n\nBassmuschi hat deine Beziehung zerstört - mit einer Lüge.",
+        "secret": "Du weißt, was Bassmuschi Lena antut.\n\nLena hat es dir vor einem Monat erzählt. Spät nachts, am Telefon. Sie hat geweint - Lena weint nie. Sie hat dir alles erzählt: Die Erpressung, die Medikamente, die Drohungen, alles.\n\nDu wolltest zur Polizei gehen. Sie hat dich angefleht, es nicht zu tun. 'Fabi, bitte. Das macht alles nur schlimmer. Ich schaffe das.'\n\nDu hast es akzeptiert. Aber du hast angefangen, einen Plan zu machen.",
+        "motive": "Du hattest einen Plan. Einen verzweifelten Plan.\n\nDu wolltest Bassmuschi konfrontieren. Ihr drohen. Ihr sagen, dass du alles weißt – und dass du zur Polizei gehst, wenn sie Lena nicht in Ruhe lässt.\n\nHeute Nacht wolltest du es durchziehen. Du hast sie gesucht, wolltest sie abpassen.\n\nAber dann ist sie gestorben - bevor du irgendetwas tun konntest.\n\nJetzt fragst du dich: War es Lena? Hat sie es selbst in die Hand genommen? Und wenn ja - macht dich das zum Komplizen, weil du von allem wusstest?",
         "whatYouKnow": [
-          "Bassmuschi war nicht die Coole, die sie gespielt hat. Privat war sie anhänglich, fast verzweifelt.",
-          "Du hast Pätzi und Bassmuschi zusammen gesehen. Er hat dich gesehen. Er weiß von der Affäre.",
-          "Lena war heute Nacht seltsam ruhig. Zu ruhig."
+          "Lena wird von Bassmuschi erpresst. Du weißt ALLES - die Medikamente, die Drohungen, den Chat-Verlauf.",
+          "Du wolltest Bassmuschi heute Nacht konfrontieren. Du hast sie gesucht. Das macht dich verdächtig.",
+          "Pätzi 'weiß' von der Affäre, die nie stattgefunden hat. Er hat dich mit Bassmuschi in seinem Lager gesehen - sie hat es inszeniert.",
+          "Lena war heute Nacht seltsam ruhig. Zu ruhig. Als ob sie bereits wusste, was passieren würde."
         ],
-        "yourGoal": "Niemand darf von der Affäre erfahren. Leugne alles.",
+        "yourGoal": "Du stehst vor der schwersten Entscheidung deines Lebens.\n\nLena ist wie eine Schwester für dich. Du hast sie aufgebaut, als sie am Boden war. Du hast ihr zugehört, als niemand sonst es tat. Du hast ihr versprochen, sie zu beschützen.\n\nAber tief in dir weißt du es. Die Blicke, die sie heute Nacht ausgetauscht haben. Ihre unnatürliche Ruhe, als alle anderen panisch wurden. Die Art, wie sie Bassmuschi gemieden hat - nicht aus Angst, sondern aus... Vorbereitung?\n\nDu WEISST, was sie getan hat. Oder ahnst es so stark, dass es keinen Unterschied macht.\n\nUnd jetzt? Schweigst du für immer? Lässt du jemand Unschuldigen verdächtigen - vielleicht sogar dich selbst? Oder verrätst du die Person, die dir am nächsten steht?\n\nDas Schlimmste: Du verstehst sie. Bassmuschi hat ihr Leben zerstört. Wenn DU in ihrer Situation wärst... hättest du vielleicht dasselbe getan.\n\nHeute Nacht musst du entscheiden: Loyalität oder Wahrheit. Es gibt keinen Mittelweg.",
         "isMurderer": false
       },
-      "dresscode": "Eng. Zeig die Gains. Aber rave-mäßig."
+      "dresscode": "Sportlich aber rave-tauglich. Gut gekleidet, nicht overdressed."
     },
     {
       "id": "paetzi",
@@ -266,7 +249,7 @@
     {
       "id": "annika",
       "realName": "Annika Uwira",
-      "roleName": "Rabenmutter",
+      "roleName": "Nachtfalter",
       "publicDescription": "Gothic-Stammgästin. Kennt die Keller. Kennt die Szene. Kennt alle Schatten.",
       "privateInfo": {
         "background": "Metal, Gothic, Underground – das ist deine Welt. Du bist keine Party-Maus, du bist eine Veteranin der dunklen Szene. Die NULL:UHR-Keller fühlen sich an wie zuhause.\n\nUnd Kevin ist dein Fels. Seit sechs Jahren zusammen, seit drei Jahren verheiratet. Er ist loyal, ehrlich, zuverlässig.\n\nDachtest du.\n\nVor zwei Wochen hast du etwas gehört. Kevin und Bassmuschi, hinter der Bar. Fetzen eines Gesprächs: '...Eva...', '...halt die Fresse...', '...ich bin fertig mit dir...'\n\nSeitdem frisst es dich auf.",
@@ -277,7 +260,8 @@
           "Kevin und Bassmuschi kannten sich. Von früher. Er hat es dir NIE erzählt.",
           "Du hast gehört: 'Eva', 'halt die Fresse', 'ich bin fertig mit dir' – was bedeutet das?",
           "Die Keller kennst du fast so gut wie Pätzi. Du weißt, wo man sich verstecken kann.",
-          "Bassmuchis Musik klingt zu perfekt. KI? Betrug? Irgendetwas stimmt nicht."
+          "Bassmuchis Musik klingt zu perfekt. KI? Betrug? Irgendetwas stimmt nicht.",
+          "Du hast kurz vor 21:00 eine Frau in Schwarz durch den Seitengang huschen sehen. Sie bewegte sich schnell, fast panisch. Du hast ihr Gesicht nicht erkannt – aber die Statur kam dir bekannt vor."
         ],
         "yourGoal": "Finde heraus, was Kevin dir verschweigt.\n\nKonfrontiere ihn – heute Nacht. Öffentlich, wenn es sein muss.\n\nUnd löse nebenbei den Mord. Vielleicht hängt alles zusammen?\n\n**Bonus-Ziel**: Beobachte Kevin genau. Mit wem redet er? Wie reagiert er auf den Tod? Ist er... erleichtert?",
         "isMurderer": false
@@ -332,9 +316,9 @@
         "isMurderer": false,
         "isSpecialRole": true,
         "specialMissions": [
-          "Finde den zerrissenen Zettel hinter der Bar",
-          "Finde heraus, wer Bassmuschi 'Eva' genannt hat",
-          "Frag drei Verdächtige: 'Wo warst du um 21 Uhr?'"
+          "Finde den zerrissenen Zettel hinter der Bar (Hinweis: Auf dem Zettel steht in krakeliger Schrift: '...bis Mitternacht das Zeug besorgen... oder ich rufe deine Praxis an... B')",
+          "Finde heraus, wer Bassmuschi 'Eva' genannt hat (Tipp: Frag Kevin!)",
+          "Frag drei Verdächtige: 'Wo warst du um 21 Uhr?' und schreib die Antworten auf!"
         ]
       },
       "dresscode": "Geheimagent-Style. Sonnenbrille? Lupe? Notizblock? Du entscheidest!"
@@ -349,39 +333,46 @@
       "pointsTo": "Kevin weiß mehr"
     },
     {
-      "id": "clue-2", 
+      "id": "clue-2",
       "name": "Die Nachricht",
-      "description": "Ein Screenshot einer WhatsApp-Nachricht: 'Ich weiß, was du getan hast. Ich vergesse nie. - L'",
-      "foundBy": "Wird verteilt",
-      "pointsTo": "Lena (aber subtil)"
+      "description": "Ein Screenshot einer WhatsApp-Nachricht: 'Ich vergesse nie. - L'",
+      "foundBy": "Wird in Runde 2 'gefunden' (Spielleiter platziert)",
+      "pointsTo": "Wer ist L? Lena? Lukas? Die Spieler müssen rätseln."
     },
     {
       "id": "clue-3",
-      "name": "Die Pillendose",
-      "description": "Eine leere Medikamentendose. Verschreibungspflichtig. Das Etikett ist abgerissen.",
-      "foundBy": "Versteckt",
-      "pointsTo": "Fabi R. oder Lena"
+      "name": "Die leere Spritze",
+      "description": "Eine benutzte Einwegspritze, gefunden unter dem DJ-Pult. Das Etikett zeigt: 'Diazepam 10mg/2ml'. Ein starkes Beruhigungsmittel – in dieser Menge tödlich.",
+      "foundBy": "Neben dem DJ-Pult (nach dem Mord platziert)",
+      "pointsTo": "Wer hat Zugang zu verschreibungspflichtigen Medikamenten? Wer arbeitet im medizinischen Bereich? (MFA = Medizinische Fachangestellte)"
     },
     {
       "id": "clue-4",
       "name": "Der Kontoauszug",
       "description": "Ein Kontoauszug mit verdächtigen Bargeld-Einzahlungen. Hohe Summen.",
-      "foundBy": "Wird verteilt",
-      "pointsTo": "Eva S."
+      "foundBy": "Wird in Runde 3 'gefunden' (Spielleiter platziert)",
+      "pointsTo": "Eva S. und die Geldwäsche"
     },
     {
       "id": "clue-5",
       "name": "Die Sprachnachricht",
       "description": "Eine transkribierte Sprachnachricht: 'Du hast mir alles gestohlen! Meinen Track, meine Karriere, alles!'",
-      "foundBy": "Lisa (auf ihrem Handy)",
-      "pointsTo": "Steffi oder Micha"
+      "foundBy": "Wird in Runde 2 'gefunden' (Spielleiter platziert)",
+      "pointsTo": "Steffi oder Micha - beide hatten Tracks verloren"
     },
     {
       "id": "clue-6",
       "name": "Der Zeitplan",
-      "description": "Lucas' Security-Protokoll. Zeigt alle Bewegungen. Eine Person fehlt von 20:55 bis 21:10 – 15 Minuten: L.M.",
-      "foundBy": "Lucas teilt es",
+      "description": "Lucas' Zugangs-Protokoll. Er hat alle Ein- und Ausgänge überwacht. Eine Person fehlt von 20:55 bis 21:10 – 15 Minuten: L.M.",
+      "foundBy": "Lucas teilt es in Runde 2-3",
       "pointsTo": "Lena Martin"
+    },
+    {
+      "id": "clue-7",
+      "name": "Lisas Foto",
+      "description": "Ein unscharfes Handyfoto: Eine Person von hinten, dunkle Jacke, auf dem Weg zum DJ-Pult. Kurz vor 21:00 aufgenommen.",
+      "foundBy": "Lisa zeigt es in Runde 3-4",
+      "pointsTo": "Wer hatte eine dunkle Jacke an? (Lena trägt immer schwarz)"
     }
   ],
   "timeline": {
