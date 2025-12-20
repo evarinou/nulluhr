@@ -218,8 +218,7 @@ export default function Home() {
                     padding: '180px 25px 25px',
                     transition: 'all 0.3s ease',
                     position: 'relative',
-                    overflow: 'hidden',
-                    height: '420px',
+                    minHeight: '420px',
                     display: 'flex',
                     flexDirection: 'column'
                   }}
@@ -286,8 +285,7 @@ export default function Home() {
                     color: '#aaa',
                     fontSize: '14px',
                     lineHeight: 1.6,
-                    flex: 1,
-                    overflow: 'hidden'
+                    flex: 1
                   }}>
                     {char.publicDescription}
                   </p>
