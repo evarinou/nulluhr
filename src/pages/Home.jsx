@@ -16,6 +16,7 @@ import kevinImg from '../ProfilePics/Kevin.png'
 import annikaImg from '../ProfilePics/Annika.png'
 import michaImg from '../ProfilePics/micha.png'
 import benImg from '../ProfilePics/Ben.png'
+import lucasBImg from '../ProfilePics/Lucas.png'
 
 const profilePics = {
   'lena': lenaImg,
@@ -30,7 +31,8 @@ const profilePics = {
   'kevin': kevinImg,
   'annika': annikaImg,
   'micha': michaImg,
-  'ben': benImg
+  'ben': benImg,
+  'lucas': lucasBImg
 }
 
 const colors = {
@@ -53,9 +55,9 @@ const colors = {
 export default function Home() {
   // Verdächtige erst ab 20.12.2025 anzeigen
   const revealDate = new Date('2025-12-20T00:00:00')
-  //const isRevealed = new Date() >= revealDate
-  // TODO: Zum Testen auf true setzen, dann wieder auf obige Zeile zurücksetzen
-  const isRevealed = false
+  const isRevealed = new Date() >= revealDate
+  //TODO: Zum Testen auf true setzen, dann wieder auf obige Zeile zurücksetzen
+  //const isRevealed = false
 
   // PWA Install
   const [deferredPrompt, setDeferredPrompt] = useState(null)

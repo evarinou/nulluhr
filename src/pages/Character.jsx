@@ -53,6 +53,7 @@ import kevinImg from '../ProfilePics/Kevin.png'
 import annikaImg from '../ProfilePics/Annika.png'
 import michaImg from '../ProfilePics/micha.png'
 import benImg from '../ProfilePics/Ben.png'
+import lucasBImg from '../ProfilePics/Lucas.png'
 
 const profilePics = {
   'lena': lenaImg,
@@ -67,7 +68,8 @@ const profilePics = {
   'kevin': kevinImg,
   'annika': annikaImg,
   'micha': michaImg,
-  'ben': benImg
+  'ben': benImg,
+  'lucas': lucasBImg
 }
 
 export default function Character() {
